@@ -84,7 +84,7 @@ def main(_user, _passwd, _step):
     password = str(_passwd)
     _step = str(_step)
     if _user == '' or password == '':
-        print("用户名或密码不能为空！")
+        print("用户名或密码不能为空！!!")
         return "user and passwd not empty！"
 
     if _step == '':
