@@ -32,7 +32,7 @@ def get_code(location):
 
 def login(_user, password):
     """
-    登录
+    登录hello
     """
     url1 = "https://api-user.huami.com/registrations/+86" + _user + "/tokens"
     _headers = {
