@@ -1,4 +1,4 @@
-name: 刷步数刷步数
+name: 刷步数刷步数123
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: 40 08 * * *
+    - cron: 05 09 * * *
   watch:
     types: started
 
